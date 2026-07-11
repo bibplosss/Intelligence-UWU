@@ -296,12 +296,102 @@
     }
 
     @media (max-width: 980px) {
+        nav {
+            flex-wrap: wrap;
+            gap: 16px;
+            padding: 16px 24px;
+        }
+
+        .logo {
+            gap: 12px;
+        }
+
+        .main1 {
+            padding: 32px 24px;
+        }
+
+        .main2,
+        .main3,
+        .main4 {
+            padding: 32px 24px;
+        }
+
+        .main2 h1,
+        .main3-header h1,
+        .main4 h1 {
+            max-width: 100%;
+            font-size: 2.4rem;
+        }
+
         .card {
             max-width: 48%;
         }
     }
 
     @media (max-width: 680px) {
+        #subheader {
+            flex-direction: column;
+            align-items: stretch;
+            text-align: center;
+            padding: 24px;
+            gap: 14px;
+        }
+
+        .menu {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .main1 {
+            flex-direction: column;
+            align-items: center;
+            padding: 24px 16px;
+            gap: 24px;
+        }
+
+        .division-text,
+        .division-image {
+            max-width: 100%;
+        }
+
+        .division-text {
+            text-align: center;
+        }
+
+        .division-text button {
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .division-image img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .main3-content {
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .main4 h1 {
+            font-size: 2rem;
+        }
+
+        p,
+        .card p,
+        .footer-column p,
+        .footer-column a {
+            font-size: 1.1rem;
+        }
+
+        .cotizar,
+        .contactanos {
+            padding: 12px 22px;
+            font-size: 0.95rem;
+        }
+
         .card-group {
             flex-direction: column;
         }
@@ -309,7 +399,27 @@
         .card {
             max-width: 100%;
         }
+
+        .logo img {
+            max-width: 80px;
+            max-height: 80px;
+        }
+
+        .logo h1,
+        #subheader h2,
+        .contactanos {
+            font-size: 1.3rem;
+        }
+
+        footer {
+            padding: 40px 8%;
+        }
+
+        .footer-column {
+            min-width: 100%;
+        }
     }
+
 footer{
     background:#0f0f0f;
     padding:60px 8%;
