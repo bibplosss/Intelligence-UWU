@@ -54,6 +54,7 @@
     }
 
     nav {
+        flex-shrink:0;
         position: relative;
         display: flex;
         justify-content: space-between;
@@ -76,6 +77,8 @@
     }
 
     header {
+         display:flex;
+        flex-direction:column;
         position: relative;
         z-index: 1;
         background-color: #f2f2f2;
