@@ -58,6 +58,10 @@
         gap: 20px;
         flex-wrap: wrap;
         padding: 16px 30px 12px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: #f2f2f2;
     }
 
     .logo {
@@ -71,7 +75,7 @@
         position: static;
         top: auto;
         z-index: auto;
-        background-color: #ffffff;
+        background-color: #f2f2f2;
         box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
     }
 
