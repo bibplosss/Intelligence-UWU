@@ -55,14 +55,16 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 30px;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 16px 30px 12px;
     }
 
     .logo {
         display: flex;
         align-items: center;
-        gap: 16px;
-        flex: 1;
+        gap: 12px;
+        flex: 1 1 240px;
     }
 
     header {
@@ -86,6 +88,8 @@
 
     .menu {
         margin-left: auto;
+        display: flex;
+        align-items: center;
     }
 
     #subheader {
@@ -94,7 +98,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 30px;
+        gap: 12px;
+        flex-wrap: wrap;
+        padding: 10px 30px 16px;
+    }
+
+    .subheader-button {
+        display: flex;
+        align-items: center;
     }
 
     .cotizar,
@@ -310,6 +321,16 @@
 
         .main1 {
             padding: 32px 24px;
+        }
+
+        #subheader {
+            justify-content: center;
+            text-align: center;
+        }
+
+        .menu,
+        .subheader-button {
+            margin-left: 0;
         }
 
         .main2,
