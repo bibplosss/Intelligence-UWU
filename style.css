@@ -58,10 +58,6 @@
         gap: 20px;
         flex-wrap: wrap;
         padding: 16px 30px 12px;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        background-color: #f2f2f2;
     }
 
     .logo {
@@ -369,29 +365,11 @@
 
     @media (max-width: 680px) {
         #subheader {
-            position: static;
             flex-direction: column;
-            align-items: center;
+            align-items: stretch;
             text-align: center;
             padding: 24px;
             gap: 14px;
-        }
-
-        #subheader .text {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-        }
-
-        .subheader-button {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-        }
-
-        .subheader-button a {
-            display: inline-flex;
-            justify-content: center;
         }
 
         .menu {
