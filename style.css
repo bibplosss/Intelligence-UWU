@@ -378,8 +378,11 @@
 
     @media (max-width:680px){
 
+    /* Navigation */
+
     nav{
         padding:12px 16px;
+        flex-wrap:wrap;
     }
 
     .logo{
@@ -394,22 +397,61 @@
 
     .logo h1{
         font-size:1.2rem;
-        white-space:nowrap;
+        white-space:normal;
     }
 
     .menu{
-        width:auto;
-        margin-left:16px;
+        width:100%;
+        margin:10px 0 0;
+        justify-content:center;
     }
 
     #subheader{
         flex-direction:column;
-        align-items:center;
         text-align:center;
+        padding:20px;
+    }
+
+    /* Main sections */
+
+    .main1,
+    .main3-content{
+        flex-direction:column;
+        gap:30px;
+    }
+
+    .division-text,
+    .division-image,
+    .main3 .division-text,
+    .main3 .division-image{
+
+        width:100%;
+        max-width:100%;
+        flex:1 1 auto;
+    }
+
+    .division-text{
+        order:1;
+    }
+
+    .division-image{
+        order:2;
+    }
+
+    .division-image img,
+    .main3 .division-image img{
+
+        width:100%;
+        max-width:400px;
+        margin:auto;
+    }
+
+     p{
+        font-size:1.05rem;
+        line-height:1.7;
     }
 
 }
-
 /* Privacy Policy Styles */
 .privacy-policy {
     max-width: 1000px;
