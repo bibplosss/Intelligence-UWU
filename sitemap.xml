@@ -7,6 +7,16 @@
   </url>
 
   <url>
+    <loc>https://inteligenciacientifica.mx/privacidad.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://inteligenciacientifica.mx/terminos.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://inteligenciacientifica.mx/especialidades.html</loc>
     <priority>0.8</priority>
   </url>
