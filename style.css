@@ -385,6 +385,16 @@
         flex-wrap:wrap;
     }
 
+    button,
+    .cotizar,
+    .contactanos{
+
+        width:100%;
+        max-width:320px;
+    }
+
+}
+
     .logo{
         flex:1;
         min-width:0;
